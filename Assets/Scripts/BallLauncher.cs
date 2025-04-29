@@ -11,9 +11,9 @@ public class BallLauncher : MonoBehaviour
     public float maxPower = 10f;
     public float chargeSpeed = 2f;
 
-    private float currentPower;
-    private bool isCharging;
-    private bool canLaunch = true;
+    public float currentPower;
+    public bool isCharging;
+    public bool canLaunch = true;
 
     void Awake()
     {
